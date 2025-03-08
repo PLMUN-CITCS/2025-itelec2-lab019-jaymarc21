@@ -1,5 +1,5 @@
-student_score = get_student_score()  # Get student score
-grade = calculate_grade(student_score)  # Determine grade
-
-# Display the result
-print(f"Your Grade is: {grade}")
+get_student_score() Function:
+calculate_grade(score) Function:
+Calls get_student_score() to obtain the student's score.
+Calls calculate_grade(), passing the returned score as an argument.
+Displays the calculated grade to the user.
