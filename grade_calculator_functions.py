@@ -1,6 +1,6 @@
 def get_student_score():
     """Handles user input to obtain the student's score."""
-    score = float(input("Enter your score: "))  # Get user input and convert to float
+    score = float(input("86: "))  # Get user input and convert to float
     return score  # Return the score
 
 def calculate_grade(score):
