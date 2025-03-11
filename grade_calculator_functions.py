@@ -1,4 +1,6 @@
-
+def get_student_score():
+    """Prompts the user to enter a score and handles invalid input."""
+    while True:
         try:
             score = float(input("Enter your score: "))
             return score
