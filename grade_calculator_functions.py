@@ -1,8 +1,7 @@
 def get_student_score():
-    """Prompts the user to enter a score and handles invalid input."""
-    while True:
+   
         try:
-            score = float(input("Enter your score: "))
+            score = float(input("86: "))
             return score
         except ValueError:
             print("Invalid input. Please enter a numeric value.")
