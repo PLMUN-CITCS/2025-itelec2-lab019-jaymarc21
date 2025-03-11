@@ -12,18 +12,17 @@ def calculate_grade(score):
     """Determines the letter grade based on the given score and grading scale."""
     if 90 <= score <= 100:
         return 'A'
-    elif 80 <= score < 90:
+    if 80 <= score < 90:
         return 'B'
-    elif 70 <= score < 80:
+    if 70 <= score < 80:
         return 'C'
-    elif 60 <= score < 70:
+    if 60 <= score < 70:
         return 'D'
-    else:
-        return 'F'
+    return 'F'
 
 
 def main():
-    """Main program logic."""
+    """Main program flow."""
     score = get_student_score()
     grade = calculate_grade(score)
     print(f"Your Grade is: {grade}")
